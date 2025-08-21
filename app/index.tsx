@@ -303,9 +303,7 @@ export default function Index() {
           "📈",
           "Analytics",
           "View spending patterns",
-          () => {
-            /* Add analytics navigation */
-          },
+          () => router.push("/analytics"),
           "#34C759"
         )}
       </View>
